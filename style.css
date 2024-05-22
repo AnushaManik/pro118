@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(#a7e6ef 0%, #dd2af9 100%);
+}
+#score{
+    color: rgb(39, 5, 108);
+    font-size: 40px;
+    float:left;
+    margin: 10px;
+}
+#timer{
+    color: rgb(10, 4, 119);
+    font-size: 40px;
+    float:right;
+    margin: 10px;
+}
+#sketch_to_be_drawn{
+    color: rgb(180, 6, 99);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+#heading{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 50px;
+}
+#show_sketch{
+   background-color: #c966d8;
+   float: right;
+}
+#your_sketch{
+    color: rgb(83, 4, 59);
+    font-size: 30px;
+}
+#confidence{
+    color:indigo;
+    font-size: 30px;
+}
+canvas{
+    
+        border: 5px solid white;
+        border-radius: 20px;
+        animation-name: example;
+        animation-duration: 4s;
+        margin-top: 50px;
+        animation-iteration-count: infinite;
+    
+    
+    
+}
+@keyframes example{
+    from {box-shadow: 1px 1px 38px purple;}
+    to { box-shadow: 1px 1px 38px pink;}
+}
